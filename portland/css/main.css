@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	border-bottom:1px solid #f0f0f0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+.menu-list{
+	list-style: none;
+	display: inline-block;
+}
+.menu-list_small{
+	font-size: 11px;
+}
+.menu-list_left{
+	padding: 0 120px;
+}
+.menu-list__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu-list__item_black{
+	margin-right:24px;
+	padding: 12px 0;
+	color: black;
+}
+.menu-list__item_gray{
+	padding: 15px;
+	color:gray;
+}
+.menu-list__item_gray:nth-child(1){
+	padding-left: 0;
+}
+.menu-list__item .menu__link{
+	text-decoration: none;
+}
+.menu-list__item_black .menu__link:visited{
+	color: black;
+}
+.menu-list__item_black .menu__link:hover{
+	color: blue;
+}
+.menu-list__item_gray .menu__link:visited{
+	color: gray;
+}
+.menu-list__item_gray .menu__link:hover{
+	color: black;
+}
+.menu__link_uppercase{
+	text-transform: uppercase;
+}
+.menu-logo{
+vertical-align: middle;
+}
+.menu-logo_left{
+	padding: 0 120px;
+}
+.cart{
+	display: inline-block;
+}
+.cart__element{
+	vertical-align: middle;
+	margin-right:8px;
+}
+.cart__element_icon{
+	margin-left: 120px;
+}
+.cart__element_link{
+	text-decoration: none;
+}
+.cart__element_link:visited{
+	color: black;
+}
+.cart__element_link:hover{
+	color: blue;
+}
+.cart__element_cart-quantity{
+	background-color: #eee;
+	border-radius: 100%;
+	padding:4px 8px;
+}
+.sign-in{
+	display: inline-block;
+}
+.sign-in__button{
+	cursor: pointer;
+}
+.sign-in__button_outline-right{
+	color:black;
+	background-color: #fff;
+	padding:5px 15px;
+	border-radius: 15px;
+	border:solid 1px gray;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.sign-in__button_outline-right:hover{
+	background-color: #eee;
+}
+.support-search{
+	vertical-align: middle;
+	margin-top: -4px; /* Откуда эти 4 пикселя взялись - не понял, видимо отступы где-то */
+}
+.support-search_right{
+	float:right;
+	margin-right: 20vw;
+}
+.support-search__field_stylized{
+	border: 0px;
+}
+.support-search__field_stylized:focus, .support-search__field_stylized.focus{
+	outline: none;
+}
+.support-search__field_stylized:placeholder-shown{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color:gray;
+}
+.support-search__icon{
+	padding:0 8px;
+}
+.product{
+	display: block;
+	vertical-align: middle;
+	font-family: 'Montserrat', sans-serif;
+}
+.product_blackbg{
+	background: #1c1e23;
+	height:100%;
+}
+.product__ad-text{
+	color:white;
+	padding-left:104px;
+	width: 55%;
+}
+.product__ad-text_name{
+	font-size: 42px;
+	font-weight: bold;
+	font-weight: 800;
+}
+.product__ad-text_description{
+	margin-top:20px;
+	font-size: 16px;
+	font-family: 'Crimson Text', serif;
+}
+.product__img{
+	width:300px;
+	height:500px;
+	overflow: hidden;
+}
+.product_item{
+	display: inline-block;
+	vertical-align: middle;
+}
+.product__img_image{
+	position: relative;
+	top:-70px;
+	left:0;
+}
+.product__button{
+	margin: 32px 0;
+}
+.product__button_blue-round{
+	background-color: #2754eb;
+	border-radius: 30px;
+	border: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding:15px 40px;
+	color:white;
+	font-weight: bold;
+	cursor: pointer;
+}
+.product__button_blue-round:hover{
+	color:black;
+}
