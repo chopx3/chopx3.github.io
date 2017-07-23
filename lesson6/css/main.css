@@ -1,0 +1,40 @@
+@font-face {
+			font-family: "ArvoRegular";
+			src: url("../fonts/ArvoRegular.eot");
+			src: url("../fonts/ArvoRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ArvoRegular.woff") format("woff"),
+			url("../fonts/ArvoRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+body{
+	background-color: #f3f5f7;
+}
+.header-question{
+	padding: 30px;
+	margin-bottom: 100px;
+	font-family: 'ArvoRegular';
+}
+.text-center{
+	text-align: center;
+}
+.header-question__text{
+	font-size: 30px;
+	color: #3b3f6a;
+}
+.adv-block__img{
+	height: 150px;
+	margin: 20px;
+}
+.adv-block__name{
+	color:#3b3f6a;
+	font-size: 22px;
+	margin: 10px;
+	min-height: 66px;
+	font-family: 'ArvoRegular', serif;
+}
+.adv-block__description{
+	font-family: Noto Sans;
+	font-size: 20px;
+	color: #686c8b;
+}
